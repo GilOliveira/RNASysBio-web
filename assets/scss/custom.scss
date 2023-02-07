@@ -1,22 +1,13 @@
 // Custom CSS for RNA Systems Biology Lab Website
 
-.fct-div {
-    display: flex;
-  }
-  #fct {
-    height: 50px;
-  }
+// .fct-div {
+//     display: flex;
+//   }
+//   #fct {
+//     height: 50px;
+//   }
 
-.logosContainer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: grid;
-    place-items: center;
-    /* background-color: white; */
-  }
-
-
-
+// Light and dark mode only classes
 .dark .light_only {
     display: none;
 }
@@ -25,14 +16,36 @@ body:not(.dark) .dark_only {
     display: none;
 }
 
+// Footer logos
+.logosContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+ }
 
-.logos {
-    max-height: 100px;
+
+.footer-logo {
+  height: 3rem;
 }
 
-/* @media (min-width: 767.98px) {
-  .logos {
-    max-height: 50px;
+.logo-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width: 767.98px) {
+
+  // .logosContainer {
+  //   width: 100%;
+  // }
+
+  .logo-container {
+    height: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-} */
+}
   
